@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+
+
+
+ /* estilo home */
+
+.home{
+    display: flex;
+
+}
+
+.home a{
+    font-size: large;
+    text-align: left;
+    font-style: italic;
+    transition: .5s;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-radius: 30%;
+}
+
+.home a:hover{
+    background-color: #292929;
+    cursor: pointer;
+}
+
+ /* estilo body grid */
+ 
+body{
+    background-color: black;
+    font: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+
+       /* GRID */
+
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: 200px auto 150px;
+       grid-template-areas: 
+       "header"
+       "main"
+       "footer";
+}
+
+ /* estilo header */
+
+ header {
+    line-height: 30px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    align-items: center;
+}
+
+
+.iconos{
+    padding: 10px;
+
+}
+
+
+h1{
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    font: bold;
+    margin-top: 50px;
+    font-size: 3rem;
+}
+
+
+
+/* estilo del main + nav + a */
+
+main {
+    background-color: #000000;
+font: bold;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: antiquewhite;
+}
+
+.navindex{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+  
+}
+
+nav{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+    font-size: x-large;
+    padding-left: 30px;
+    padding-right: 30px;
+    transition: .5s;
+
+}
+
+nav a:hover{
+    background-color: #292929;
+    border: 3px;
+    border-radius: 90%;
+    cursor: pointer;
+
+}
+
+a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+
+/* css de Bio */
+
+
+.bio{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr;
+}
+.bioo {
+    display: flex;
+    justify-content: center;
+
+
+}
+.bioo img{
+    object-fit: cover; 
+    align-items: center;
+}
+.aboutme{
+    display: flex;
+    text-align: center justify;
+    line-height: 1.5rem;
+    padding: 50px;
+}
+.passions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 25px;
+}
+
+.passions h3{
+    font-size: 1.5rem;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.passions ul{
+    list-style: none;
+}
+
+/* css de table */
+
+table{
+    padding: 10px;
+    text-align: center;
+}
+
+
+/* css de Music */
+
+
+.music__gallery {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: repeat(2,1fr);
+    gap: 10px;
+    padding: 20px;
+
+
+}
+
+.music__img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+
+}
+.music__img img{
+    width: 98%;
+    margin: 20px;
+    padding: 5px;
+    border: solid rgb(88, 34, 20) 2px;
+    object-fit: cover;
+    align-items: center;
+}
+
+
+.description{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.description{
+    line-height: 1.5rem;
+    font-size: medium;
+    text-align: center;
+}
+
+
+.gallery{
+    width: 98%;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: repeat(2,1fr);
+    gap: 10px;
+    padding: 20px;    
+}
+
+.gallery__photos{
+    display: flex;
+    width: 100%;
+}
+
+.gallery__photos img{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    
+    
+    width: 98%;
+    margin: 20px;
+    padding: 5px;
+    border: solid rgb(111, 106, 91) 1px;
+        /* grid */
+    }
+
+
+
+.receta {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+
+.contact{
+    display: flex;
+    margin-bottom: 20px;
+    padding: 10px;
+    justify-content: center;
+}
+
+
+fieldset{
+    padding: 10px;
+}
+
+.contact fieldset{
+    padding: 10px;
+}
+
+
+/* estilo video */
+video{
+    border: solid rgb(111, 106, 91) 2px;
+    padding: 5px;
+    width: 70%;
+}
+
+.video{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.video h2{
+    margin-bottom: 40px;
+}
+
+.message{
+    width: 300px;
+    height: 300px;
+}
+
+
+/* estilo footer */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: flex-end;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: antiquewhite;
+    font-size: large;
+    text-align: center;
+
+
+}
+
+
+/* grids */
+
+
+
+@media only screen and (max-width:780px){
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    
+
+    .music__gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 10px;
+        padding: 20px;
+        width: 100%;
+    
+    
+    }
+    
+    .music__img {
+        display: flex;
+        justify-content: center;
+    
+    
+    }
+    .music__img img{
+        width: 98%;
+        margin: 20px;
+        padding: 5px;
+        border: solid rgb(111, 106, 91) 1px;
+        object-fit: cover;
+        align-items: center;
+    }
+
+
+}
