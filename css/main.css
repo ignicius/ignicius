@@ -195,9 +195,7 @@ table{
 .music__img {
     display: flex;
     justify-content: center;
-    width: 100%;
-
-
+    opacity: 0.8;
 }
 .music__img img{
     width: 98%;
@@ -207,7 +205,11 @@ table{
     object-fit: cover;
     align-items: center;
 }
-
+.music__img:hover{
+    transform: scale(1.05);
+    transition: all 2s;
+    opacity: 1;
+}
 
 .description{
     display: flex;
@@ -236,8 +238,8 @@ table{
 .gallery__photos{
     display: flex;
     width: 100%;
+    opacity: 0.8;
 }
-
 .gallery__photos img{
     display: flex;
     width: 20%;
@@ -250,6 +252,11 @@ table{
     border: solid rgb(111, 106, 91) 1px;
         /* grid */
     }
+.gallery__photos:hover{
+        transform: scale(1.05);
+        transition: all 2s;
+        opacity: 1;
+}
 
 
 
@@ -350,6 +357,7 @@ footer{
     .music__img {
         display: flex;
         justify-content: center;
+     
     
     
     }
