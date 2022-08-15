@@ -1,0 +1,18 @@
+/* estilo body grid */
+
+body{
+    background-color: black;
+    font: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: $colorletras;
+
+       /* GRID */
+
+       display: grid;
+       grid-template-columns: 1fr;
+       grid-template-rows: 200px auto 150px;
+       grid-template-areas: 
+       "header"
+       "main"
+       "footer";
+}

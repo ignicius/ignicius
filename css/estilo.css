@@ -1,0 +1,150 @@
+/* estilo header */
+header {
+  line-height: 30px;
+  font-size: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+  align-items: center;
+}
+
+.iconos {
+  padding: 10px;
+}
+
+.iconos:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+h2 {
+  text-align: center;
+  font: bold;
+  margin-top: 50px;
+  font-size: 3rem;
+}
+
+/* estilo body grid */
+body {
+  background-color: black;
+  font: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: antiquewhite;
+  /* GRID */
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 200px auto 150px;
+  grid-template-areas: "header" "main" "footer";
+}
+
+/* estilo footer */
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-end;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: antiquewhite;
+  font-size: large;
+  text-align: center;
+}
+
+footer a:hover {
+  transform: scale(1.2);
+  transition: 1s;
+}
+
+/* estilo del main + nav + a */
+main {
+  background-color: #000000;
+  font: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: antiquewhite;
+}
+
+.navindex {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav a {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: antiquewhite;
+  font-size: x-large;
+  padding-left: 30px;
+  padding-right: 30px;
+  opacity: 0.8;
+}
+
+nav a:hover {
+  background: linear-gradient(rgb(53, 52, 52), rgb(44, 42, 2), rgb(53, 52, 52));
+  cursor: pointer;
+  border-radius: 90%;
+  transition: 1s;
+  opacity: 1;
+}
+
+a {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: antiquewhite;
+  text-decoration: none;
+}
+
+/* css de Bio */
+.bio {
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr 1fr;
+}
+
+.bioo {
+  display: flex;
+  justify-content: center;
+}
+
+.bioo img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  align-items: center;
+}
+
+.aboutme {
+  display: flex;
+  text-align: center justify;
+  line-height: 1.5rem;
+  padding: 50px;
+}
+
+.passions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  line-height: 1.5rem;
+  padding: 25px;
+}
+
+.passions h3 {
+  font-size: 1.5rem;
+  padding: 10px;
+  align-items: flex-start;
+}
+
+.passions ul {
+  list-style: none;
+}

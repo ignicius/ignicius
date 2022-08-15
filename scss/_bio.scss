@@ -1,0 +1,43 @@
+/* css de Bio */
+
+
+.bio{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr 1fr;
+}
+.bioo {
+    display: flex;
+    justify-content: center;
+
+
+}
+.bioo img{
+    object-fit: cover; 
+    align-items: center;
+}
+.aboutme{
+    display: flex;
+    text-align: center justify;
+    line-height: 1.5rem;
+    padding: 50px;
+}
+.passions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 1.5rem;
+    padding: 25px;
+}
+
+.passions h3{
+    font-size: 1.5rem;
+    padding: 10px;
+    align-items: flex-start;
+}
+
+.passions ul{
+    list-style: none;
+}

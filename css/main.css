@@ -4,33 +4,8 @@
     box-sizing: border-box;
  }
 
-
-
-
- /* estilo home */
-
-.home{
-    display: flex;
-
-}
-
-.home a{
-    font-size: large;
-    text-align: left;
-    font-style: italic;
-    transition: .5s;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 30%;
-}
-
-.home a:hover{
-    background-color: #292929;
-    cursor: pointer;
-}
-
  /* estilo body grid */
- 
+
 body{
     background-color: black;
     font: bold;
@@ -174,12 +149,7 @@ a{
     list-style: none;
 }
 
-/* css de table */
 
-table{
-    padding: 10px;
-    text-align: center;
-}
 
 
 /* css de Music */
@@ -228,6 +198,9 @@ table{
 }
 
 
+/* css de gallery */
+
+
 .gallery{
     width: 98%;
     margin-bottom: 20px;
@@ -262,6 +235,12 @@ table{
 }
 
 
+/* css de table */
+
+table{
+    padding: 10px;
+    text-align: center;
+}
 
 .receta {
     display: flex;
@@ -269,6 +248,9 @@ table{
     padding: 20px;
 }
 
+
+
+/* css de contact */
 
 .contact{
     display: flex;
