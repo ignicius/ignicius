@@ -16,7 +16,6 @@ header {
 .iconos {
   padding: 10px;
 }
-
 .iconos:hover {
   transform: scale(1.5);
   transition: 1s;
@@ -29,7 +28,7 @@ h1 {
 h2 {
   text-align: center;
   font: bold;
-  margin-top: 50px;
+  margin-top: 30px;
   font-size: 3rem;
   -webkit-animation: fadeIn 3s ease;
           animation: fadeIn 3s ease;
@@ -86,13 +85,13 @@ footer {
 footer a:hover {
   transform: scale(1.2);
   transition: 1s;
+  color: antiquewhite;
 }
 
 /* estilo del main + nav + a */
 main {
   background-color: #000000;
   font: bold;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: antiquewhite;
 }
 
@@ -101,6 +100,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  color: antiquewhite;
 }
 
 nav {
@@ -111,7 +111,6 @@ nav {
 }
 
 nav a {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: antiquewhite;
   font-size: x-large;
   padding-left: 30px;
@@ -125,10 +124,10 @@ nav a:hover {
   border-radius: 90%;
   transition: 1s;
   opacity: 1;
+  color: antiquewhite;
 }
 
 a {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: antiquewhite;
   text-decoration: none;
 }
@@ -239,9 +238,24 @@ video {
   margin-bottom: 40px;
 }
 
-.message {
-  width: 300px;
-  height: 300px;
+.gallery__nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -5px;
+}
+
+.gallery__li {
+  color: antiquewhite;
+  font-size: x-large;
+  text-transform: none;
+}
+.gallery__li:hover {
+  color: antiquewhite;
+}
+
+.gallery__photos2 {
+  text-align: center;
 }
 
 /* css de Music */
@@ -260,7 +274,11 @@ video {
   opacity: 0.8;
   text-align: center;
 }
-
+.music__img:hover {
+  transform: scale(1.05);
+  transition: all 2s;
+  opacity: 1;
+}
 .music__img img {
   width: 99%;
   margin: 20px;
@@ -269,24 +287,32 @@ video {
   -o-object-fit: cover;
      object-fit: cover;
   align-items: center;
-}
-
-.music__img:hover {
-  transform: scale(1.05);
-  transition: all 2s;
-  opacity: 1;
+  justify-content: center;
 }
 
 .description {
   display: flex;
   justify-content: center;
   padding: 30px;
-}
-
-.description {
   line-height: 1.5rem;
   font-size: medium;
   text-align: center;
+}
+
+/* css de contact */
+.contact {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 10px;
+  justify-content: center;
+}
+
+fieldset {
+  padding: 10px;
+}
+
+.contact fieldset {
+  padding: 10px;
 }
 
 /* grids */

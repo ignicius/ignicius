@@ -3,8 +3,7 @@
 main {
     background-color: #000000;
 font: bold;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-color: antiquewhite;
+color: $colorletras;
 }
 
 .navindex{
@@ -12,8 +11,7 @@ color: antiquewhite;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    
-  
+    color: $colorletras;  
 }
 
 nav{
@@ -23,8 +21,7 @@ nav{
     justify-content: center;
 }
 nav a{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: antiquewhite;
+    color: $colorletras;
     font-size: x-large;
     padding-left: 30px;
     padding-right: 30px;
@@ -37,12 +34,11 @@ nav a:hover{
     border-radius: 90%;
     transition: 1s;
     opacity: 1;
-
+    color: $colorletras;
 }
 
 a{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: antiquewhite;
+    color: $colorletras;
     text-decoration: none;
 }
 

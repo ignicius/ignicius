@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galery | Ignicius</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
     <link
     rel="stylesheet"
@@ -13,7 +14,7 @@
   </head>
   <body>
     <header class="header__noindex">
-      <nav>
+      <nav class="navindex">
         <a href="../index.html">Home</a>
         <a href="../HTML/musica.html">Music</a>
         <a href="../HTML/bio.html">Bio</a>
@@ -22,6 +23,37 @@
       <h2>Gallery</h2>
     </header>
     <main>
+      <nav id="navbar-example2" class="navbar bg-black px-3 mb-3 gallery__nav">
+            <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link bg-black gallery__li" href="#scrollspyHeading1">Original</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link bg-black gallery__li" href="#scrollspyHeading2">Animated</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle bg-black gallery__li" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Pesca</a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#scrollspyHeading3">Plano Cenital</a></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading4">Plano Medio</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#scrollspyHeading5">Follow Me</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-black p-3 rounded-2 gallery__photos2" tabindex="0">
+        <h4 id="scrollspyHeading1" class="p-3">Original</h4>
+        <img src="../images/MOdio.jpg" alt="" margin="auto">
+        <h4 id="scrollspyHeading2 "class="p-3">Animated</h4>
+        <img src="../images/Bondiola-ANIME2.jpg" alt="">
+        <h4 id="scrollspyHeading3"class="p-3">Plano Cenital</h4>
+        <img src="../images/Salmon-Blanco-edit.jpg" alt="">
+        <h4 id="scrollspyHeading4"class="p-3">Plano Medio</h4>
+        <img src="../images/Salmon-Blanco-2-edit.jpg" alt="">
+        <h4 id="scrollspyHeading5"class="p-3">Followme</h4>
+        <img src="../images/FollowmEintothEsky.jpg" alt="">
+      </div>
       <section class="gallery">
         <div class="gallery__photos">
           <img src="../images/Galeria/_DSC01288.jpg" alt="">
@@ -101,5 +133,7 @@
         </a>
       </div>
     </footer>
+    <script src="http://unpkg.com/@popperjs/core@2"></script>
+    <script src="../js/bootstrap.min.js"></script>
   </body>
 </html>
