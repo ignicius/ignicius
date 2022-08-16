@@ -13,11 +13,13 @@
 
 .music__img {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     opacity: 0.8;
+    text-align: center;
 }
 .music__img img{
-    width: 98%;
+    width: 99%;
     margin: 20px;
     padding: 5px;
     border: solid rgb(88, 34, 20) 2px;
