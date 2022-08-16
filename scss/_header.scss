@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
 /* estilo header */
 
 header {
@@ -8,7 +14,6 @@ header {
     align-items: center;
 }
 
-
 .iconos{
     padding: 10px;
 }
@@ -16,7 +21,6 @@ header {
     transform: scale(1.5);
     transition: 1s;
 }
-
 
 h1{
     margin-top: 50px;
@@ -27,5 +31,12 @@ h2{
     font: bold;
     margin-top: 50px;
     font-size: 3rem;
+    animation: fadeIn 3s ease;
+}
+@keyframes fadeIn{
+    0%{opacity: 0;
+    filter: blur(20px);}
+    10%{opacity: 1;
+    filter: brightness(2) blur(10px);}
 }
 

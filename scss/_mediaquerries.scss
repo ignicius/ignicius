@@ -1,0 +1,45 @@
+/* grids */
+
+
+
+@media only screen and (max-width:780px){
+    
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 10px;
+        padding: 20px;
+    }
+
+    
+
+    .music__gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: 1fr;
+        gap: 10px;
+        padding: 20px;
+        width: 100%;
+    
+    
+    }
+    
+    .music__img {
+        display: flex;
+        justify-content: center;
+     
+    
+    
+    }
+    .music__img img{
+        width: 98%;
+        margin: 20px;
+        padding: 5px;
+        border: solid rgb(111, 106, 91) 1px;
+        object-fit: cover;
+        align-items: center;
+    }
+
+
+}

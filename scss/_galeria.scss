@@ -32,8 +32,6 @@
         transition: all 2s;
         opacity: 1;
     }
-
-        /* grid */
     }
 }
 
@@ -49,4 +47,28 @@ table{
     display: flex;
     justify-content: space-around;
     padding: 20px;
+}
+
+/* estilo video */
+video{
+    border: solid rgb(111, 106, 91) 2px;
+    padding: 5px;
+    width: 70%;
+}
+
+.video{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.video h2{
+    margin-bottom: 40px;
+}
+
+.message{
+    width: 300px;
+    height: 300px;
 }

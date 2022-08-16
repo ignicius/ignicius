@@ -1,0 +1,44 @@
+/* css de Music */
+
+
+.music__gallery {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: repeat(2,1fr);
+    gap: 10px;
+    padding: 20px;
+
+
+}
+
+.music__img {
+    display: flex;
+    justify-content: center;
+    opacity: 0.8;
+}
+.music__img img{
+    width: 98%;
+    margin: 20px;
+    padding: 5px;
+    border: solid rgb(88, 34, 20) 2px;
+    object-fit: cover;
+    align-items: center;
+}
+.music__img:hover{
+    transform: scale(1.05);
+    transition: all 2s;
+    opacity: 1;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+
+}
+
+.description{
+    line-height: 1.5rem;
+    font-size: medium;
+    text-align: center;
+}
