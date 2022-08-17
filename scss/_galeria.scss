@@ -78,9 +78,13 @@ video{
 .gallery__li{
     color: $colorletras;
     font-size: x-large;
-    text-transform: none;
-
+    
     &:hover{
+        color: $colorletras;
+    }
+}
+.gallery__ul{
+    li a{
         color: $colorletras;
     }
 }

@@ -248,9 +248,12 @@ video {
 .gallery__li {
   color: antiquewhite;
   font-size: x-large;
-  text-transform: none;
 }
 .gallery__li:hover {
+  color: antiquewhite;
+}
+
+.gallery__ul li a {
   color: antiquewhite;
 }
 
