@@ -218,6 +218,7 @@ table {
   display: flex;
   justify-content: space-around;
   padding: 20px;
+  font-size: 1.2rem;
 }
 
 /* estilo video */
@@ -255,6 +256,7 @@ video {
 
 .gallery__ul li a {
   color: antiquewhite;
+  font-size: large;
 }
 
 .gallery__photos2 {

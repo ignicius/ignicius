@@ -41,21 +41,28 @@
               <li><a class="dropdown-item bg-black" href="#scrollspyHeading5">Follow Me</a></li>
             </ul>
           </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle bg-black gallery__li" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Portobello</a>
+            <ul class="dropdown-menu bg-black gallery__ul">
+              <li><a class="dropdown-item bg-black" href="#scrollspyHeading6">Photos</a></li>
+              <li><a class="dropdown-item bg-black" href="#scrollspyHeading7">Receipe</a></li>
+              <li><a class="dropdown-item bg-black" href="#scrollspyHeading8">Video</a></li>
+
         </ul>
       </nav>
       <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-black p-3 rounded-2 gallery__photos2" tabindex="0">
-        <h4 id="scrollspyHeading1" class="p-3">Original</h4>
-        <img src="../images/MOdio.jpg" alt="" margin="auto">
-        <h4 id="scrollspyHeading2"class="p-3">Animated</h4>
-        <img src="../images/Bondiola-ANIME2.jpg" alt="">
-        <h4 id="scrollspyHeading3"class="p-3">Plano Cenital</h4>
-        <img src="../images/Salmon-Blanco-edit.jpg" alt="">
-        <h4 id="scrollspyHeading4"class="p-3">Plano Medio</h4>
-        <img src="../images/Salmon-Blanco-2-edit.jpg" alt="">
-        <h4 id="scrollspyHeading5"class="p-3">Followme</h4>
-        <img src="../images/FollowmEintothEsky.jpg" alt="">
+        <h4 class="p-3">Original</h4>
+        <img src="../images/MOdio.jpg" alt="" margin="auto" id="scrollspyHeading1">
+        <h4 class="p-3">Animated</h4>
+        <img src="../images/Bondiola-ANIME2.jpg" alt="" id="scrollspyHeading2">
+        <h4 class="p-3">Plano Cenital</h4>
+        <img src="../images/Salmon-Blanco-edit.jpg" alt="" id="scrollspyHeading3">
+        <h4 class="p-3">Plano Medio</h4>
+        <img src="../images/Salmon-Blanco-2-edit.jpg" alt="" id="scrollspyHeading4">
+        <h4 class="p-3">Followme</h4>
+        <img src="../images/FollowmEintothEsky.jpg" alt="" id="scrollspyHeading5">
       </div>
-      <h2>Portobello's time</h2>
+      <h2 id="scrollspyHeading6">Portobello's time</h2>
       <section class="gallery">
         <div class="gallery__photos">
           <img src="../images/Galeria/_DSC01288.jpg" alt="">
@@ -71,8 +78,8 @@
         </div>
       </section>
       <section class="receta">
-        <fieldset>
-          <legend>Portobellos horneados</legend>
+        <fieldset id="scrollspyHeading7">
+          <legend>Baked Portobellos</legend>
           <table border="2" cellpadding="10px">
             <tr>
               <th>Step</th>
@@ -112,7 +119,7 @@
           </table>
         </fieldset>
       </section>
-      <section class="video">
+      <section id="scrollspyHeading8" class="video">
         <h2 class="animate__bounceInLeft">Stir Fry Portobellos</h2>
         <video
           src="../images/Galeria/_DSC0017.MOV"
