@@ -10,12 +10,10 @@
 .bioo {
     display: flex;
     justify-content: center;
-
-
-}
-.bioo img{
-    object-fit: cover; 
-    align-items: center;
+    img{
+        object-fit: cover; 
+        align-items: center;
+    }
 }
 .aboutme{
     display: flex;
@@ -30,14 +28,12 @@
     text-align: center;
     line-height: 1.5rem;
     padding: 25px;
+    h3{
+        font-size: 1.5rem;
+        padding: 10px;
+        align-items: flex-start;
+    }
+    ul{
+        list-style: none;
 }
-
-.passions h3{
-    font-size: 1.5rem;
-    padding: 10px;
-    align-items: flex-start;
-}
-
-.passions ul{
-    list-style: none;
 }

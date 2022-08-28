@@ -1,4 +1,4 @@
-/* css de Music */
+// ---------------- CSS DE MUSIC GALLERY ---------------- //
 
 
 .music__gallery {
@@ -8,6 +8,8 @@
     gap: 10px;
     padding: 20px;
 }
+
+// ---------------- CSS DE MUSIC IMG ---------------- //
 
 .music__img {
     display: flex;
@@ -26,18 +28,33 @@
         width: 99%;
         margin: 20px;
         padding: 5px;
-        border: solid rgb(88, 34, 20) 2px;
+        border: $border2;
         object-fit: cover;
         align-items: center;
         justify-content: center;
     }
 }
 
-.description{
+// ---------------- CSS DE MUSIC DESCRIPTION ---------------- //
+
+.music__description{
     display: flex;
     justify-content: center;
     padding: 30px;
     line-height: 1.5rem;
     font-size: medium;
     text-align: center;
+
+}
+    
+
+
+// ---------------- CSS DE MUSIC VIDEO ---------------- //
+
+.music__video1{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        position: relative;
+        top: 40px; 
 }

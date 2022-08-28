@@ -1,12 +1,16 @@
-/* estilo del main + nav + a */
+// ---------------- CSS DE MAIN ---------------- //
+
 
 main {
-    background-color: #000000;
+    background-color: $bg;
 font: bold;
 color: $colorletras;
 }
 
-.navindex{
+
+// ---------------- CSS DE INDEX NAV  ---------------- //
+
+.index__nav{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -14,31 +18,36 @@ color: $colorletras;
     color: $colorletras;  
 }
 
+// ---------------- CSS DE NAV + A  ---------------- //
+
 nav{
     margin-top: 50px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-}
-nav a{
-    color: $colorletras;
-    font-size: x-large;
-    padding-left: 30px;
-    padding-right: 30px;
-    opacity: 0.8;
 
+    a{
+        color: $colorletras;
+        font-size: x-large;
+        padding-left: 30px;
+        padding-right: 30px;
+        opacity: 0.8;
+
+        &:hover{
+            background: linear-gradient(rgb(53, 52, 52),rgb(44, 42, 2),rgb(53, 52, 52));
+            cursor: pointer;
+            border-radius: 90%;
+            transition: 1s;
+            opacity: 1;
+            color: $colorletras;
+        }
+    }
 }
-nav a:hover{
-    background: linear-gradient(rgb(53, 52, 52),rgb(44, 42, 2),rgb(53, 52, 52));
-    cursor: pointer;
-    border-radius: 90%;
-    transition: 1s;
-    opacity: 1;
-    color: $colorletras;
-}
+
+
+// ---------------- CSS DE A  ---------------- //
 
 a{
     color: $colorletras;
-    text-decoration: none;
+    text-decoration: none;  
 }
-

@@ -7,15 +7,15 @@ footer{
     align-items: center;
     align-content: center;
     justify-content: flex-end;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: $ff;
     color: $colorletras;
     font-size: large;
     text-align: center;
 
-
+    a:hover{
+        transform: scale(1.2);
+        transition: 1s;
+        color: $colorletras;
 }
-footer a:hover{
-    transform: scale(1.2);
-    transition: 1s;
-    color: $colorletras;
+
 }

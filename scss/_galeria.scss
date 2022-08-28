@@ -1,4 +1,4 @@
-/* css de gallery */
+// ---------------- CSS DE GALLERY ---------------- //
 
 
 .gallery{
@@ -10,65 +10,7 @@
     gap: 10px;
     padding: 20px;    
 }
-
-.gallery__photos{
-    display: flex;
-    width: 100%;
-    opacity: 0.8;
-
-    img{
-    display: flex;
-    width: 20%;
-    justify-content: center;
-    
-   
-    width: 98%;
-    margin: 20px;
-    padding: 5px;
-    border: solid rgb(111, 106, 91) 1px;
-    
-
-    &:hover{
-        transform: scale(1.05);
-        transition: all 2s;
-        opacity: 1;
-    }
-    }
-}
-
-
-/* css de table */
-
-table{
-    padding: 10px;
-    text-align: center;
-}
-
-.receta {
-    display: flex;
-    justify-content: space-around;
-    padding: 20px;
-    font-size: 1.2rem;
-}
-
-/* estilo video */
-video{
-    border: solid rgb(111, 106, 91) 2px;
-    padding: 5px;
-    width: 70%;
-}
-
-.video{
-    padding: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.video h2{
-    margin-bottom: 40px;
-}
-
+// ---------------- CSS DE GALLERY NAV ---------------- //
 
 .gallery__nav{
     display: flex;
@@ -88,11 +30,79 @@ video{
     li a{
         color: $colorletras;
         font-size: large;
+
     }
 }
 .gallery__photos2{
     text-align: center;
     h4{
         font-size: 1.5rem;
+    }       
+}
+
+// ---------------- CSS DE GALLERY PHOTOS ---------------- //
+
+.gallery__photos{
+    display: flex;
+    opacity: 0.8;
+
+    img{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    
+   
+    width: 98%;
+    margin: 20px;
+    padding: 5px;
+    border: $border1;
+    
+
+    &:hover{
+        transform: scale(1.05);
+        transition: all 2s;
+        opacity: 1;
+    }
+    }
+}
+
+
+//------------------------------ CSS DE GALLERY RECEIPE ------------------------------ //
+
+
+.gallery__receipe {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 1.2rem;
+
+    fieldset{
+
+        table{
+            padding: 10px;
+            text-align: center;
+        }
+    }
+   
+    
+}
+
+// ------------------------------ CSS DE GALLERY VIDEO ------------------------------ // 
+
+.gallery__video{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    video{
+        border: $border1;
+        padding: 5px;
+        width: 70%;
+    }
+    
+    h2{
+        margin-bottom: 40px;
     }
 }

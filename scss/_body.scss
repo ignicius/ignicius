@@ -1,9 +1,9 @@
 /* estilo body grid */
 
 body{
-    background-color: black;
+    background-color: $bg;
     font: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: $ff;
     color: $colorletras;
 
        /* GRID */
