@@ -1,13 +1,13 @@
-/* css de Bio */
+// ---------------- CSS DE MUSIC BIO ---------------- //
 
 
-.bio{
+.bio__main{
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr 1fr;
 }
-.bioo {
+.bio__img{
     display: flex;
     justify-content: center;
     img{
@@ -15,13 +15,13 @@
         align-items: center;
     }
 }
-.aboutme{
+.bio__text{
     display: flex;
     text-align: center justify;
     line-height: 1.5rem;
     padding: 50px;
 }
-.passions {
+.bio__text2{
     display: flex;
     flex-direction: column;
     justify-content: center;

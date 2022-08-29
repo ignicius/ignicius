@@ -15,14 +15,6 @@ header h1 {
   margin-top: 50px;
 }
 
-.iconos {
-  padding: 10px;
-}
-.iconos:hover {
-  transform: scale(1.5);
-  transition: 1s;
-}
-
 h2 {
   text-align: center;
   font: bold;
@@ -125,32 +117,39 @@ footer a:hover {
   color: antiquewhite;
 }
 
-/* css de Bio */
-.bio {
+.footer__links {
+  padding: 10px;
+}
+.footer__links:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
+.bio__main {
   padding: 20px;
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: auto 1fr 1fr;
 }
 
-.bioo {
+.bio__img {
   display: flex;
   justify-content: center;
 }
-.bioo img {
+.bio__img img {
   -o-object-fit: cover;
      object-fit: cover;
   align-items: center;
 }
 
-.aboutme {
+.bio__text {
   display: flex;
   text-align: center justify;
   line-height: 1.5rem;
   padding: 50px;
 }
 
-.passions {
+.bio__text2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -158,12 +157,12 @@ footer a:hover {
   line-height: 1.5rem;
   padding: 25px;
 }
-.passions h3 {
+.bio__text2 h3 {
   font-size: 1.5rem;
   padding: 10px;
   align-items: flex-start;
 }
-.passions ul {
+.bio__text2 ul {
   list-style: none;
 }
 
