@@ -1,16 +1,13 @@
-### Hi there 👋
+Hi there 👋
 
-<!--
-**ignicius/ignicius** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Ignacius here, dreamming to work in projects with ingrained concepts, respectfull and professional teamworking
 
-Here are some ideas to get you started:
 
-- 🔭 I’m currently working on ... 
-- 🌱 I’m currently learning ... JavaScript
-- 👯 I’m looking to collaborate on ... Music / Photography / Gastronomy Proyects
-- 🤔 I’m looking for help with ... Continue learning and adding knowledge.
-- 💬 Ask me about ...
-- 📫 How to reach me: ... ignicius.p@gmail.com
-- 😄 Pronouns: ...
+- 🔭 I’m currently studying on CoderHouse Institute : (Full Stack Developer carreer)
+- 🌱 I’m currently learning JavaScript
+- 👯 I’m looking to collaborate on: Music / Photography / Gastronomy Proyects
+- 🤔 I’m looking for help with Continue learning and adding knowledge.
+- 💬 Ask me about what   
+- 📫 How to reach me: ignicius.p@gmail.com
 - ⚡ Fun fact: ... 
 -->
