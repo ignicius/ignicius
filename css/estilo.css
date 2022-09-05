@@ -59,6 +59,7 @@ body {
 
 main {
   background-color: black;
+  min-height: calc(100vh - 170px - 150px);
   font: bold;
   color: antiquewhite;
 }
@@ -109,6 +110,7 @@ footer {
   color: antiquewhite;
   font-size: large;
   text-align: center;
+  position: static;
 }
 footer a:hover {
   transform: scale(1.2);
@@ -200,6 +202,11 @@ footer a:hover {
   display: flex;
   opacity: 0.8;
 }
+.gallery__photos:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  transition: all 2s;
+}
 .gallery__photos img {
   display: flex;
   width: 20%;
@@ -208,11 +215,6 @@ footer a:hover {
   margin: 20px;
   padding: 5px;
   border: solid rgb(111, 106, 91) 2px;
-}
-.gallery__photos img:hover {
-  transform: scale(1.05);
-  transition: all 2s;
-  opacity: 1;
 }
 
 .gallery__receipe {
@@ -259,6 +261,11 @@ footer a:hover {
   justify-content: center;
   text-align: center;
 }
+.music__photos:hover {
+  opacity: 1;
+  transform: scale(1.05);
+  transition: all 2s;
+}
 .music__photos img {
   display: flex;
   width: 20%;
@@ -267,11 +274,6 @@ footer a:hover {
   margin: 20px;
   padding: 5px;
   border: solid rgb(111, 106, 91) 2px;
-}
-.music__photos img:hover {
-  transform: scale(1.05);
-  transition: all 2s;
-  opacity: 1;
 }
 .music__photos img {
   border: solid rgb(88, 34, 20) 2px;
@@ -326,4 +328,23 @@ footer a:hover {
        object-fit: cover;
     align-items: center;
   }
+}
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: solid rgb(111, 106, 91) 2px; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: rgb(44, 43, 43); /* Set a background color */
+  color: antiquewhite; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }

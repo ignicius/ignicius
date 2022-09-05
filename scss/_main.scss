@@ -3,6 +3,7 @@
 
 main {
     background-color: $bg;
+    min-height: calc(100vh - 170px - 150px) ;
 font: bold;
 color: $colorletras;
 }
