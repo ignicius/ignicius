@@ -50,4 +50,8 @@ nav{
 a{
     color: $colorletras;
     text-decoration: none;  
+
+    &:hover{
+        color: $colorletras;
+    }
 }

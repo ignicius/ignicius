@@ -5,7 +5,7 @@
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr;
+    grid-template-rows: auto auto 1fr;
 }
 .bio__img{
     display: flex;
@@ -13,9 +13,12 @@
 }
 .bio__text{
     display: flex;
+    flex-direction: column;
     text-align: center justify;
     line-height: 1.5rem;
-    padding: 50px;
+    padding:0px 50px 0px 50px;
+    font-size: 1rem;
+    margin-top: 50px;
 }
 .bio__text2{
     display: flex;
@@ -31,5 +34,11 @@
     }
     ul{
         list-style: none;
+        li{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        font-size: 1.2rem;
+        }
 }
 }
